@@ -1,0 +1,32 @@
+.stop-watch{
+      background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/sunset-1373171__480.jpg);
+      max-width: 600px;
+      background-size: cover;
+      background-position: center;
+      padding: 40px 0;
+      margin: 100px auto 0;
+      text-align: center;
+      color: white;
+}
+
+.stop-watch h1{
+      font-size: 80px;
+      margin: 50px 0;
+}
+
+.controls{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.stop-watch img{
+      width: 60px;
+      aspect-ratio: 1;
+      margin: 0 30px;
+      mix-blend-mode:lighten;
+}
+
+.stop-watch img:nth-child(2){
+      width: 80px;
+}
